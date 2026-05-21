@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 420" role="img" aria-labelledby="title desc">
+  <title id="title">Lecturer portrait illustration</title>
+  <desc id="desc">A professional lecturer portrait with a blazer and light background.</desc>
+  <rect width="360" height="420" rx="8" fill="#f7fbfa"/>
+  <circle cx="180" cy="118" r="70" fill="#d7a06f"/>
+  <path d="M102 122c5-58 44-88 84-84 48 5 76 42 72 91-19-24-48-36-86-36-30 0-53 10-70 29z" fill="#1b2c35"/>
+  <circle cx="153" cy="127" r="6" fill="#17212b"/>
+  <circle cx="207" cy="127" r="6" fill="#17212b"/>
+  <path d="M151 164c18 17 42 17 60 0" fill="none" stroke="#8b5434" stroke-width="7" stroke-linecap="round"/>
+  <path d="M87 392c8-83 43-137 93-137s85 54 93 137H87z" fill="#0b5d56"/>
+  <path d="M130 392l28-132h44l28 132H130z" fill="#ffffff"/>
+  <path d="M160 270l20 30 20-30" fill="none" stroke="#d9a441" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 392c6-55 29-99 65-119l36 119H77z" fill="#073f3a"/>
+  <path d="M283 392c-6-55-29-99-65-119l-36 119h101z" fill="#073f3a"/>
+  <rect x="120" y="292" width="120" height="18" rx="9" fill="#e8f2ef"/>
+  <circle cx="180" cy="302" r="6" fill="#d9a441"/>
+</svg>

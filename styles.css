@@ -1,0 +1,313 @@
+/*
+  Full Name: Abuubkar Hussein Ali
+  Registration Number: 24BITO25
+  Question Number: 1
+*/
+
+:root {
+  --color-bg: #f5f7fb;
+  --color-surface: #ffffff;
+  --color-primary: #0b5d56;
+  --color-primary-dark: #073f3a;
+  --color-accent: #d9a441;
+  --color-text: #17212b;
+  --color-muted: #607080;
+  --color-border: #dce4ec;
+  --shadow-card: 0 22px 55px rgba(23, 33, 43, 0.14);
+  --radius-card: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 7%;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.site-nav a:hover {
+  color: var(--color-surface);
+  background: var(--color-primary);
+}
+
+main {
+  padding: 34px 7% 46px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1040px;
+  margin: 0 auto 24px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 2.35rem;
+  line-height: 1.1;
+}
+
+.suza-mark {
+  width: 128px;
+  padding: 10px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+}
+
+.profile-section {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.lecturer-card {
+  display: flex;
+  align-items: stretch;
+  gap: 32px;
+  padding: 30px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lecturer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 70px rgba(23, 33, 43, 0.18);
+}
+
+.photo-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 300px;
+  min-height: 360px;
+  background: #e8f2ef;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+}
+
+.lecturer-photo {
+  width: 240px;
+}
+
+.lecturer-details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lecturer-details h2 {
+  margin-bottom: 4px;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.title {
+  margin-bottom: 24px;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.detail-block {
+  padding: 18px;
+  background: #fbfcfe;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+}
+
+.detail-block h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: var(--color-primary-dark);
+}
+
+.detail-block ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.detail-block p {
+  margin-bottom: 6px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.primary-link,
+.secondary-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.primary-link {
+  color: var(--color-surface);
+  background: var(--color-primary);
+}
+
+.primary-link:hover {
+  color: var(--color-text);
+  background: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.secondary-link {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.secondary-link:hover {
+  color: var(--color-surface);
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.site-footer {
+  padding: 18px 7%;
+  color: var(--color-surface);
+  text-align: center;
+  background: var(--color-primary-dark);
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .site-header,
+  .intro,
+  .lecturer-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav ul {
+    flex-wrap: wrap;
+  }
+
+  main {
+    padding: 24px 18px 34px;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .suza-mark {
+    width: 104px;
+  }
+
+  .lecturer-card {
+    gap: 20px;
+    padding: 18px;
+  }
+
+  .photo-panel {
+    flex-basis: auto;
+    width: 100%;
+    min-height: 250px;
+  }
+
+  .lecturer-photo {
+    width: min(210px, 82%);
+  }
+
+  .lecturer-details h2 {
+    font-size: 1.65rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions,
+  .primary-link,
+  .secondary-link {
+    width: 100%;
+  }
+}
